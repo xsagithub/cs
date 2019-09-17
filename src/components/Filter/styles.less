@@ -1,0 +1,74 @@
+@margin: 0 24px 10px 0;
+.lable () {
+  margin: 0 10px 0 0;
+  color: #777777;
+  font-size: 14px;
+  line-height: 30px;
+}
+.common-filter {
+  margin: 0 0 -17px 0;
+  //form
+  .form {
+    margin: 0 24px;
+  }
+  // Select
+  .option-box {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: @margin;
+    .lable()
+  }
+  // 时间区间
+  .range-box {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: @margin;
+    .lable()
+  }
+  // input
+  .input {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: @margin;
+    .lable()
+  }
+  .clear {
+    margin: 0 0 17px 17px;
+  }
+
+  // Tags 
+  .taps {
+    padding: 18px 0;
+    border-top: 1px #DDD solid;
+    margin: 24px 0 -24px 0;
+    .taps-box {
+      margin: 0 24px;
+      margin-bottom: -10px;
+      .searched {
+        margin: 0 10px 0 0;
+      }
+      .tag {
+        padding: 1px 10px;
+        display: inline-block;
+        background: #f7f7f7;
+        border: 1px #ddd solid;
+        padding: 0 8px;
+        border-radius: 3px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+        margin: 0 10px 10px 0;
+        span {
+          color: #AAA;
+        }
+        strong {
+          margin: 0 0 0 5px;
+        }
+        em {
+          margin: 0 0 0 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
